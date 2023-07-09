@@ -1,0 +1,38 @@
+
+header {
+    background: #fff;
+    border-bottom: 1px solid #333;
+    padding: 0;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: red;
+    padding:2em;
+    display: inline-block;
+}
+
+nav ul li a:hover {
+    background-color: red;
+    color: #fff;
+}
+
+.container {
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin:0;
+}
+
+a.logo {
+    margin:0;
+    padding:1em;
+}
+
+
+
